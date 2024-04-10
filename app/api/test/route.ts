@@ -5,7 +5,7 @@ function sleep(ms: number) {
 }
 
 async function fetchData() {
-  await sleep(5000);
+  await sleep(10000);
   return "Hello World!";
 }
 
