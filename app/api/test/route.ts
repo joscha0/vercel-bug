@@ -5,7 +5,7 @@ function sleep(ms: number) {
 }
 
 async function fetchData() {
-  await sleep(10000);
+  await sleep(7000);
 
   let a = new Array(10000);
   for (let i = 0; i < 10000; i++) a[i] = i;
