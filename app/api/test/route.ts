@@ -6,7 +6,11 @@ function sleep(ms: number) {
 
 async function fetchData() {
   await sleep(10000);
-  return "Hello World!";
+
+  let a = new Array(10000);
+  for (let i = 0; i < 10000; i++) a[i] = i;
+
+  return a;
 }
 
 export async function POST(request: NextRequest) {
